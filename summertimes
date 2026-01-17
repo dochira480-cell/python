@@ -1,0 +1,8 @@
+temp = int(input("Enter the temperature in Fahrenheit: "))
+if temp > 85:
+    print("It's a hot day.")
+elif temp < 60:
+    print("It's a cold day.")
+else:
+    print("It's a moderate day.")
+    
