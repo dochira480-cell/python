@@ -1,0 +1,9 @@
+print ("enter a number(numerator):")
+num = int(input())
+print ("enter a number(denominator):")
+den = int(input())
+if num % den == 0:
+    print (num, "is divisible by", den)
+else:
+    print (num, "is not divisible by", den)
+    
