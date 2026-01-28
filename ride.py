@@ -30,4 +30,8 @@ if ride == 1:
 
 
 
+else:   print("Invalid choice for ride.")
+
+
+
 
