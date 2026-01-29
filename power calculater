@@ -6,4 +6,4 @@ g = 1
 for i in range(pw):
     g = g * num
 
-print("The result is: ", g)
+    print("The result is: ", g)
