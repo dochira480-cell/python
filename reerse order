@@ -1,0 +1,8 @@
+# input a number greater than 1
+n = int(input(" enter the value of n:"))
+
+
+# print the number from n to 1
+print ("the numbers from {} to 1 in reverse order are:".format(n))
+for i in range(n, 0, -1):
+    print(i)
