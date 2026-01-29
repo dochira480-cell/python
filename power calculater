@@ -1,0 +1,9 @@
+num = int(input("Enter the number of you want the power of: "))
+pw = int(input("Enter the power: "))
+
+g = 1
+
+for i in range(pw):
+    g = g * num
+
+print("The result is: ", g)
