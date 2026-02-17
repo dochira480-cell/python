@@ -1,0 +1,15 @@
+# take input from user
+nume = int(input("Enter a number:"))
+# initialize sum
+sum = 0
+ # find the sum of the cube of each digit
+temp = nume 
+while temp > 0:
+ digit = temp % 10
+ sum += digit ** 3
+ temp //= 10
+# diplay result
+if nume == sum:
+ print(nume,"is an Armstrong number")
+else:
+ print(nume, "is not an Armstrong number")
