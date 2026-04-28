@@ -1,0 +1,8 @@
+a = input("enter a word:   ")
+
+for i in a: #literate for loop
+    if ("i == a"):
+        print("a is in the word")
+        break
+    else:
+        print("a is not found")
