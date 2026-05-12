@@ -1,6 +1,6 @@
 import random
 playing = True
-number = str(random.randint(0,9))
+number = (random.randint(0,9))
 
 print("I will generate a random number between 0 and 9, can you guess it?")
 print()
